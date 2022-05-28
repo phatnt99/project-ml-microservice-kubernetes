@@ -6,7 +6,7 @@ Forwarding from [::1]:8000 -> 80
 Handling connection for 8000
 
 # the output from make_predictions.sh script once the Kubernetes cluster is up and running
-# using command line: kubectl logs udacityproject4-6c7c484d4b-m6jd4
+# using command line: kubectl logs udacityproject4-6c7c484d4b-bwsgk
 
 [2022-05-28 12:39:29,184] INFO in app: JSON payload:
 {'CHAS': {'0': 0}, 'RM': {'0': 6.575}, 'TAX': {'0': 296.0}, 'PTRATIO': {'0': 15.3}, 'B': {'0': 396.9}, 'LSTAT': {'0': 4.98}}
