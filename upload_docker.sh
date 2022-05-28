@@ -10,7 +10,7 @@ echo "Docker ID and Image: $dockerpath"
 
 # Step 2:  
 # Authenticate & tag
-docker login --username phatryo99 --password qp123456789
+docker login
 docker tag udacityproject4 $dockerpath
 
 # Step 3:
