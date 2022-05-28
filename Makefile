@@ -12,8 +12,8 @@ setup:
 
 install:
 	# This should be run from inside a virtualenv
-	c:\users\admin\appdata\local\programs\python\python37\python.exe -m pip install --upgrade pip &&\
-		c:\users\admin\appdata\local\programs\python\python37\python.exe -m pip install -r requirements.txt
+	python3 -m pip install --upgrade pip &&\
+		python3 -m pip install -r requirements.txt
 
 test:
 	# Additional, optional, tests could go here
